@@ -55,23 +55,6 @@ src/app/
 
 ---
 
-## Cómo ejecutar
-
-1. Instala dependencias:
-   ```
-   npm install
-   ```
-2. Levanta el proyecto:
-   ```
-   ng serve
-   ```
-3. Corre las pruebas unitarias:
-   ```
-   ng test
-   ```
-
----
-
 ## Notas
 
 - El token de autenticación es simulado y se guarda en `localStorage`.
