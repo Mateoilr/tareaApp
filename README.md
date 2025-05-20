@@ -40,6 +40,7 @@ Aplicación móvil desarrollada con Angular e Ionic, que implementa navegación 
 
 ## Estructura de carpetas
 
+```
 src/app/
   ├── pages/
   │     ├── auth/
@@ -47,20 +48,24 @@ src/app/
   │     └── settings/
   ├── guards/
   └── app.routes.ts
+```
 
 ---
 
 ## Cómo ejecutar
 
 1. Instala dependencias:
+   ```
    npm install
+   ```
 2. Levanta el proyecto:
-
+   ```
    ng serve
-
+   ```
 3. Corre las pruebas unitarias:
-
+   ```
    ng test
+   ```
 
 ---
 
@@ -73,4 +78,5 @@ src/app/
 ---
 
 ## Autor
+
 Mateo Lituma
