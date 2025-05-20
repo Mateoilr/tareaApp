@@ -25,7 +25,7 @@ export class LoginPage {
 
   constructor(private router: Router) { }
   username = '';
-password = '';
+  password = '';
 
 onLogin() {
 

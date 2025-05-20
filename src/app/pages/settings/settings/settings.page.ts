@@ -31,7 +31,7 @@ export class SettingsPage {
 
   logout() {
     localStorage.removeItem('token');
-    this.navCtrl.navigateRoot('/auth/login');
+    this.navCtrl.navigateRoot('');
   }
 
   volver() {

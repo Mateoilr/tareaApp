@@ -30,10 +30,10 @@ export class HomePage  {
   }
   logout() {
     localStorage.removeItem('token');
-    this.navCtrl.navigateRoot('/auth/login');
+    this.navCtrl.navigateRoot('');
   }
 
- 
+
 
 
 
