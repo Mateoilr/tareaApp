@@ -7,11 +7,7 @@ export const routes: Routes = [
     redirectTo: 'auth',
     pathMatch: 'full',
   },
-  {
-    path: '**',
-    redirectTo: 'auth',
-    pathMatch: 'full'
-  },
+
   {
     path: 'auth',
     loadChildren: () => import('./pages/auth/auth.module').then(m => m.AuthModule),
@@ -26,5 +22,10 @@ export const routes: Routes = [
     path: 'settings',
     loadChildren: () => import('./pages/settings/settings.module').then(m => m.SettingsModule),
     canActivate: [authGuard]
+  },
+  {
+    path: '**',
+    redirectTo: 'auth',
+    pathMatch: 'full'
   }
 ];
