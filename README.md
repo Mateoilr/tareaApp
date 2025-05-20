@@ -44,8 +44,11 @@ Aplicación móvil desarrollada con Angular e Ionic, que implementa navegación 
 src/app/
   ├── pages/
   │     ├── auth/
+  │     │     └── login/
   │     ├── tabs/
+  │     │     ├── home/
   │     └── settings/
+  │           └── settings/
   ├── guards/
   └── app.routes.ts
 ```
